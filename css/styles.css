@@ -422,12 +422,10 @@ button {
   align-items: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: var(--brand-color-iris);
 }
 
-.social-box-icons:hover,
-.social-box-icons:focus {
+.social-item-icon:hover,
+.social-item-icon:focus {
   background-color: var(--brand-color-ocean);
 }
 .social-icons-list {
@@ -442,8 +440,10 @@ button {
 }
 
 .social-item-icon {
+  border-radius: 50%;
+  background-color: var(--brand-color-iris);
+  align-items: center;
   display: flex;
-  justify-content: center;
   padding: 12px 12px;
 }
 
