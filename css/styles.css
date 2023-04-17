@@ -419,6 +419,7 @@ button {
 } */
 
 .social-box-icons {
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -426,7 +427,7 @@ button {
 }
 
 .social-box-icons:hover,
-.social-box-icons:focus .customers-icon-box:active {
+.social-box-icons:focus {
   background-color: var(--brand-color-ocean);
 }
 .social-icons-list {
@@ -435,6 +436,9 @@ button {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 24px;
+}
+.social-icons {
+  fill: var(--brand-color-cloud);
 }
 
 .social-item-icon {
