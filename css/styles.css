@@ -478,9 +478,11 @@ button {
 
 .customers-icon-link:hover,
 .customers-icon-link:focus {
+  color: var(--brand-color-ocean);
   border: 1px solid var(--brand-color-ocean);
 }
 .customers-icon-link {
+  color: var(--brand-color-light-slate);
   width: 168px;
   height: 88px;
   border: 1px solid var(--brand-color-light-slate);
@@ -493,7 +495,7 @@ button {
 
 .customers-icon {
   fill: currentColor;
-  fill: var(--brand-color-light-slate);
+  /* fill: var(--brand-color-light-slate); */
 }
 
 .customers-icon:hover,
@@ -556,6 +558,7 @@ button {
 .social-box-icons-footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 8px 8px;
   width: 40px;
   height: 40px;
@@ -574,8 +577,8 @@ button {
   justify-content: left;
   gap: 16px;
 }
-
-/* .social-item-icon {} */
+.social-item-footer {
+}
 
 /**
   |============================
