@@ -212,7 +212,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/index/hero-people-office.png);
+    url(../images/index/hero-people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -297,6 +297,22 @@ button {
   text-transform: capitalize;
 }
 
+.futere-icon-box {
+  width: 264px;
+  height: 112px;
+  background: var(--brand-color-cloud);
+  border-radius: 4px;
+  margin-top: 8px;
+}
+.future-icon-link {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.future-icon {
+}
+
 /* OUR WORKS */
 
 .our-works {
@@ -377,6 +393,51 @@ button {
   margin-bottom: 32px;
   margin-left: auto; */
 }
+
+/**
+  |============================
+  | CUSTOMERS
+  |============================
+*/
+
+.customers-box {
+}
+.customers-box-icons {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+/* .customers-title {} */
+/* .title-section {} */
+.customers-list {
+  padding-top: 72px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+/* .customers-item {}
+.content-box {} */
+.customers-icon-box {
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--brand-color-light-slate);
+  border-radius: 4px;
+}
+.customers-icon-box:hover,
+.customers-icon-box:focus .customers-icon-box:active {
+  border: 1px solid var(--brand-color-ocean);
+}
+.customers-icon-link {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  fill: var(--brand-color-light-slate);
+}
+.customers-icon-link:hover,
+.customers-icon-link:focus .customers-icon-box:active {
+  fill: var(--brand-color-ocean);
+}
+
+/* .customers-icon {} */
 
 /**
   |============================
