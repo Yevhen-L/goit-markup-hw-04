@@ -391,10 +391,6 @@ button {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  /* margin-top: 32px;
-  margin-right: auto;
-  margin-bottom: 8px;
-  margin-left: auto; */
 }
 .text-card {
   color: var(--brand-color-slate);
@@ -404,19 +400,11 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  /* margin-top: 0px;
-  margin-right: auto;
-  margin-bottom: 32px;
-  margin-left: auto; */
 }
 
 /* Social link */
 
-/* .social-box {
-  width: 232px;
-  height: 40px;
-  margin-top: 8px;
-} */
+/* .social-box {} */
 
 .social-box-icons {
   align-items: center;
@@ -629,11 +617,7 @@ button {
 
 /* PORTFOLOI WORKS */
 
-/* .portfolio-img-frame:hover, 
-.portfolio-img-frame:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}  */
+/* .portfolio-img-frame{}  */
 /* .portfolio-box {} */
 /* .portfolio-card-box {} */
 /* .portfolio-btns-box {}  */
