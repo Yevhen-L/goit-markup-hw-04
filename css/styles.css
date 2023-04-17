@@ -476,7 +476,7 @@ button {
   border-radius: 4px;
 }
 .customers-icon-box:hover,
-.customers-icon-box:focus .customers-icon-box:active {
+.customers-icon-box:focus {
   border: 1px solid var(--brand-color-ocean);
 }
 .customers-icon-link {
@@ -486,7 +486,7 @@ button {
   fill: var(--brand-color-light-slate);
 }
 .customers-icon-link:hover,
-.customers-icon-link:focus .customers-icon-box:active {
+.customers-icon-link:focus {
   fill: var(--brand-color-ocean);
 }
 
