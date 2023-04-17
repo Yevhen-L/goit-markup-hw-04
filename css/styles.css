@@ -596,16 +596,17 @@ button {
   color: var(--brand-color-white);
   background-color: var(--brand-color-ocean);
   border: 1px solid transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* PORTFOLOI WORKS */
 
-.portfolio-img-frame:hover,
+/* .portfolio-img-frame:hover, 
 .portfolio-img-frame:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+}  */
 /* .portfolio-box {} */
 /* .portfolio-card-box {} */
 /* .portfolio-btns-box {}  */
@@ -625,6 +626,12 @@ button {
 }
 .img-portfolio {
   width: 360px;
+  display: block;
+}
+.img-portfolio:hover,
+.img-portfolio:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .title-card-box {
   text-align: left;
