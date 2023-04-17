@@ -10,6 +10,7 @@
   --brand-color-navy: #2e2f42;
   --brand-color-white: #ffffff;
   --brand-color-dairy: #fcfcfc;
+
   /* fonnts */
   --primary-font-roboto: "Roboto", sans-serif;
   --secondary-font-raleway: "Raleway", sans-serif;
@@ -280,6 +281,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 .futures-text {
   color: var(--brand-color-slate);
@@ -565,6 +567,7 @@ button {
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-iris);
   background-color: var(--brand-color-cloud);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -583,11 +586,16 @@ button {
   color: var(--brand-color-white);
   background-color: var(--brand-color-ocean);
   border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* PORTFOLOI WORKS */
 
-/* .portfolio-img-frame {} */
+.portfolio-img-frame:hover,
+.portfolio-img-frame:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 /* .portfolio-box {} */
 /* .portfolio-card-box {} */
 /* .portfolio-btns-box {}  */
