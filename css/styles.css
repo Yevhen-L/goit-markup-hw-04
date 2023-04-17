@@ -373,8 +373,9 @@ button {
 }
 .teams-wrapper {
   background-color: var(--brand-color-white);
-  padding: 32px 16px;
+
   border-radius: inherit;
+  padding: 32px 0;
 }
 .card-teams {
   display: flex;
@@ -428,7 +429,6 @@ button {
   background-color: var(--brand-color-ocean);
 }
 .social-icons-list {
-  padding: 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
