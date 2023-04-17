@@ -263,7 +263,13 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* .futures-box {} */
+.futures-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  gap: 24px;
+}
 
 .futures-list {
   display: flex;
@@ -301,26 +307,22 @@ button {
   text-transform: capitalize;
 }
 
-.future-box-icons {
+/* .future-box-icons {} */
+
+.futere-icon-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 8px;
-  gap: 24px;
-}
-
-.futere-icon-box {
   width: 264px;
   height: 112px;
   background: var(--brand-color-cloud);
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.future-icon-link {
+/* .future-icon-link {
   display: flex;
   justify-content: center;
-  padding-top: 24px;
-}
+} */
 
 .future-icon {
 }
