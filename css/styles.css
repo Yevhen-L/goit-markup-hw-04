@@ -289,7 +289,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 .futures-text {
   color: var(--brand-color-slate);
@@ -399,7 +398,7 @@ button {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin: 8px 0;
 }
 
 /* Social link */
@@ -433,7 +432,8 @@ button {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 12px 12px;
+  width: 100%;
+  height: 100%;
 }
 
 /**
@@ -455,12 +455,11 @@ button {
 
 /* .title-section {} */
 .customers-list {
-  padding-top: 72px;
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
-/* .customers-item {}
+/* 
 .content-box {} */
 /* .customers-icon-box {} */
 
@@ -469,10 +468,16 @@ button {
   color: var(--brand-color-ocean);
   border: 1px solid var(--brand-color-ocean);
 }
+
+.customers-item {
+  width: calc((100% - 72px) / 4);
+  height: 88px;
+}
+
 .customers-icon-link {
   color: var(--brand-color-light-slate);
-  width: 168px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--brand-color-light-slate);
   border-radius: 4px;
   align-items: center;
@@ -483,7 +488,6 @@ button {
 
 .customers-icon {
   fill: currentColor;
-  /* fill: var(--brand-color-light-slate); */
 }
 
 .customers-icon:hover,
@@ -592,7 +596,6 @@ button {
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-iris);
   background-color: var(--brand-color-cloud);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
