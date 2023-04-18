@@ -539,6 +539,7 @@ button {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--brand-color-white);
+  margin-bottom: 16px;
 }
 /* .social-box-footer {} */
 
@@ -556,6 +557,7 @@ button {
   background-color: var(--brand-color-green);
 }
 .social-icons-list-footer {
+  margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
