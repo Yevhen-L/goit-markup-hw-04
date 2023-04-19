@@ -504,9 +504,6 @@ button {
 .footer-box {
   display: flex;
   align-items: baseline;
-  flex-wrap: nowrap;
-  justify-content: left;
-  gap: 120px;
 }
 
 .footer {
@@ -529,6 +526,9 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.link-logo-footer {
+  margin-right: 120px;
 }
 
 /* Social footer link */
@@ -565,7 +565,6 @@ button {
   gap: 16px;
 }
 .social-item-footer {
-  align-items: center;
   width: 40px;
   height: 40px;
 }
